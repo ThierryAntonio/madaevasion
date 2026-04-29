@@ -1048,19 +1048,5 @@ function App() {
     </div>
   );
 }
-// À ajouter dans votre App.jsx
-const [menuOpen, setMenuOpen] = useState(false);
 
-// Dans le return, modifiez votre navbar :
-<nav className={`navbar ${menuOpen ? 'active' : ''}`}>
-  <div className="container">
-    <div className="nav-brand">VotreSite</div>
-    <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-      ☰
-    </button>
-    <div className="nav-links">
-      {/* vos liens */}
-    </div>
-  </div>
-</nav>
 export default App;
