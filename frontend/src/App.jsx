@@ -807,8 +807,8 @@ function App() {
                   <div className="circuit-card">
                     <img src="/images/miami.jpg" alt="Plages de Nosy Be" className="circuit-img" />
                     <div className="circuit-content">
-                      <h3 className="circuit-title">Plages de Nosy Be</h3>
-                      <p className="circuit-desc">Détente sur les plages paradisiaques de l'archipel de Nosy Be.</p>
+                      <h3 className="circuit-title">Bord de Miami Tamatave</h3>
+                      <p className="circuit-desc">Détente sur la mer de notre premier grand port de Madagascar.</p>
                       <div className="circuit-meta">
                         <span>6 jours</span>
                         <span className="circuit-price">750 $</span>
